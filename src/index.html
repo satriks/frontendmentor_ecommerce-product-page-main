@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+/>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="item">
+            <button>кликни</button>
+            <span class="colapse">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, iste numquam. Quae autem fuga eaque!</span>
+        </div>
+        <div class="item">div2</div>
+        <div class="item">div3</div>
+    </div>
+
+
+    <a href="./images/image-product-1.jpg" data-fancybox="gallery" data-caption="Caption #1">
+        <img src="./images/image-product-1-thumbnail.jpg" />
+    </a>
+    <a href="./images/image-product-2.jpg" data-fancybox="gallery" data-caption="Caption #2">
+        <img src="./images/image-product-2-thumbnail.jpg" />
+    </a>
+    <a href="./images/image-product-3.jpg" data-fancybox="gallery" data-caption="Caption #3">
+        <img src="./images/image-product-3-thumbnail.jpg" />
+    </a>
+
+    
+    
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script>Fancybox.bind("[data-fancybox]", {
+        // Your custom options
+      });
+      </script>
+</body>
+</html>
